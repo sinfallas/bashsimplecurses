@@ -1,0 +1,157 @@
+commit f238f6a81f2a0dac414ecfbf37bb89185cb43834 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Apr 17 18:33:41 2015 -0430
+
+    * se agrega el paquete para la descarga
+
+commit f19c0bd48ca3b71b196e03e5f0b7dd2b41c536cc
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Apr 9 14:16:37 2015 -0430
+
+    * changelog
+
+commit 5016e0170118f2806278ca016dad3e4485ed289f
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Apr 9 14:16:22 2015 -0430
+
+    * update readme
+
+commit 3d5c28c2b6cfe80d38f70cb899ec183c88d30750
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Fri Jun 1 09:53:42 2012 +0000
+
+    issue #7 fixed
+
+commit fb646139c8984819596c6c581c8dfda072897509
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Fri Jun 1 09:45:43 2012 +0000
+
+     fixed #10 - fixed #5 - fixed #8 change mktmp argument to be compatible with majors distributions
+
+commit f5b69bbc7fdf5e73b3145378c59182386af4d7bc
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Mon Jun 8 15:34:29 2009 +0000
+
+    Changing readme
+
+commit 133fa13f3bc685d8a78701cd78af9dab93c37a45
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Mon Jun 8 15:29:37 2009 +0000
+
+    Add some files
+
+commit a554225a20ab8eac3f340165afb2e38e1e75a691
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Mon Jun 8 15:26:53 2009 +0000
+
+    Add some files
+
+commit 9b1e7e330410d89444595d3919aa58f8acd73149
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Mon Jun 8 15:12:43 2009 +0000
+
+    Add a makefile to install, uninstall and check some features
+
+commit 69eb9994dbe1877fff93f0abdd73bf9ff914b6a9
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Mon Jun 8 12:22:33 2009 +0000
+
+    Add tux.gif and changes on wintest to show how to add images with libcaca. So nice :)
+
+commit 4cf9a7da910ac4c6d7b9d8cc2ac91b018846789a
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Mon Jun 8 10:52:29 2009 +0000
+
+    Issue #1
+    Give an error on append_tabbed if second parameter is not given
+
+commit 61acfe5d8bcbbd6bd91e0773d6e9ea83ba135fc2
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Mon Jun 8 10:45:02 2009 +0000
+
+    Add better spaces manager to reproduce output
+
+commit 17a9cd6f1fdd58ccd8c01a31aa11dfb863835413
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Mon Jun 8 10:18:29 2009 +0000
+
+    Examples changed to show "tree" and "cal" commands output. Note that colors are displayed if command gives real colors outuput as "-C" option on "tree"
+    
+    ls command doesn't use this kind of colors...
+
+commit 3966ad48e86bcd6832beaf663d17c08c69269e5f
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Mon Jun 8 10:16:40 2009 +0000
+
+    Corrections to get better output on append_command and append_file
+
+commit b187e32bf3869a8c32d52ea9229825542d1d48fe
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Mon Jun 8 10:08:30 2009 +0000
+
+    Add filename for create_buffer to be argument
+    Add append_command function => See Issue #3
+
+commit 3a1cb2e4b1e05d129b5b1b0b86c64bacb7857d61
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Mon Jun 8 09:41:26 2009 +0000
+
+    Issue #4
+    Patch from Laurent Bachelier to use mktemp command and to check if /dev/shm is available.
+
+commit 26cd36679db2ad1a54b64c7bb0eb031aec7b8ef8
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Fri Jun 5 15:14:58 2009 +0000
+
+    Some comments and usage of append_file function
+
+commit 669886c86b88559e79bbd6249cfd87b5c58474b4
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Fri Jun 5 15:14:30 2009 +0000
+
+    Added: append_file to log file on a window
+    Added: append third argument can be "left" to force text to be left align
+
+commit 4d83091dacb43798956240f3cc89fdaf7c0d95e8
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Fri Jun 5 14:49:37 2009 +0000
+
+    Bug found on text wrap
+
+commit 66c0d83711e79622b2786d65a632c4ea74158961
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Fri Jun 5 14:18:10 2009 +0000
+
+    Added an option to allow to use "old" ascii chars. The method is to call your script with ASCIIMODE="ascii" env var:
+    $ ASCIIMODE="ascii" ./myscript.sh
+    
+    This way, only "+","-" and "|" are used. This can be very usefull for old terminals
+
+commit eec31bd5b22e84cf16b52ea05995286a0f368ab4
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Fri Jun 5 13:36:41 2009 +0000
+
+    A cool example to display windows by cols
+
+commit 6730afb564c764dc99ac5827ef7c312517c36426
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Fri Jun 5 13:36:07 2009 +0000
+
+    Woo... Lot of corrections
+       * Text wrapped to fit window
+       * now it's possible to add cols (only right)
+       * better buffer system
+       * cursor is putted on bottom right after display
+       * append function can take multilined text
+
+commit c65331b87f2d03660c99c8bdde826c5b93330f26
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Fri Jun 5 11:44:32 2009 +0000
+
+    Now, we can move cursor on left and right to place several windows vertically
+
+commit 3d1be1e50f30ddd6beed119a65d1699d1df106fa
+Author: Metal3d <Metal3d@5ebbb9c8-51aa-11de-b56c-cbe681ab91ab>
+Date:   Fri Jun 5 08:27:42 2009 +0000
+
+    Initial import
